@@ -18,8 +18,6 @@ pipe = StableDiffusionPipeline.from_pretrained(
 pipe.to("cuda")
 
 # prompt = "a photograph of an astronaut riding a horse"
-
-
 # image = pipe(prompt)["sample"][0]
 
 
